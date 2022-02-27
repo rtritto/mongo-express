@@ -51,7 +51,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["concurrently", "npm:6.5.1"],\
             ["cookie-parser", "npm:1.4.4"],\
             ["copy-webpack-plugin", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:9.1.0"],\
-            ["cross-env", "npm:7.0.3"],\
             ["csurf", "npm:1.10.0"],\
             ["errorhandler", "npm:1.5.1"],\
             ["eslint", "npm:7.32.0"],\
@@ -4132,16 +4131,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["cross-env", [\
-        ["npm:7.0.3", {\
-          "packageLocation": "./.yarn/cache/cross-env-npm-7.0.3-96d81820f4-26f2f3ea2a.zip/node_modules/cross-env/",\
-          "packageDependencies": [\
-            ["cross-env", "npm:7.0.3"],\
-            ["cross-spawn", "npm:7.0.3"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["cross-spawn", [\
         ["npm:5.1.0", {\
           "packageLocation": "./.yarn/cache/cross-spawn-npm-5.1.0-a3e220603e-726939c995.zip/node_modules/cross-spawn/",\
@@ -7468,7 +7457,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["concurrently", "npm:6.5.1"],\
             ["cookie-parser", "npm:1.4.4"],\
             ["copy-webpack-plugin", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:9.1.0"],\
-            ["cross-env", "npm:7.0.3"],\
             ["csurf", "npm:1.10.0"],\
             ["errorhandler", "npm:1.5.1"],\
             ["eslint", "npm:7.32.0"],\
