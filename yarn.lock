@@ -2298,13 +2298,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"busboy@npm:^0.2.13, busboy@npm:^0.2.14":
+"busboy@npm:^0.2.14":
   version: 0.2.14
   resolution: "busboy@npm:0.2.14"
   dependencies:
     dicer: 0.2.5
     readable-stream: 1.1.x
   checksum: 9df9fca6d96dab9edd03f568bde31f215794e6fabd73c75d2b39a4be2e8b73a45121d987dea5db881f3fb499737c261b372106fe72d08b8db92afaed8d751165
+  languageName: node
+  linkType: hard
+
+"busboy@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "busboy@npm:1.4.0"
+  dependencies:
+    streamsearch: ^1.1.0
+  checksum: 1970853fd390f62df0db15d44ee8c0fbb3bca84e0c3083531f955e31dbc3ec9e77faa4d5a47d520ff5ec7a79596af9b957741383b0cd4d9513b71f8524096442
   languageName: node
   linkType: hard
 
@@ -5713,7 +5722,7 @@ __metadata:
     body-parser: ^1.19.2
     bootstrap: ^3.3.7
     bson: ^4.6.1
-    busboy: ^0.2.13
+    busboy: ^1.4.0
     chai: ^4.3.6
     clean-webpack-plugin: ^4.0.0
     cli-color: ^2.0.1
@@ -7386,6 +7395,13 @@ __metadata:
   version: 0.1.2
   resolution: "streamsearch@npm:0.1.2"
   checksum: d2db57cbfbf7947ab9c75a7b4c80a8ef8d24850cf0a1a24258bb6956c97317ce1eab7dbcbf9c5aba3e6198611af1053b02411057bbedb99bf9c64b8275248997
+  languageName: node
+  linkType: hard
+
+"streamsearch@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "streamsearch@npm:1.1.0"
+  checksum: 1cce16cea8405d7a233d32ca5e00a00169cc0e19fbc02aa839959985f267335d435c07f96e5e0edd0eadc6d39c98d5435fb5bbbdefc62c41834eadc5622ad942
   languageName: node
   linkType: hard
 

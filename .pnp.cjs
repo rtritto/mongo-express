@@ -42,7 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["body-parser", "npm:1.19.2"],\
             ["bootstrap", "npm:3.4.1"],\
             ["bson", "npm:4.6.1"],\
-            ["busboy", "npm:0.2.14"],\
+            ["busboy", "npm:1.4.0"],\
             ["chai", "npm:4.3.6"],\
             ["clean-webpack-plugin", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:4.0.0"],\
             ["cli-color", "npm:2.0.1"],\
@@ -3532,6 +3532,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["busboy", "npm:0.2.14"],\
             ["dicer", "npm:0.2.5"],\
             ["readable-stream", "npm:1.1.14"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:1.4.0", {\
+          "packageLocation": "./.yarn/cache/busboy-npm-1.4.0-53ce41bbb1-1970853fd3.zip/node_modules/busboy/",\
+          "packageDependencies": [\
+            ["busboy", "npm:1.4.0"],\
+            ["streamsearch", "npm:1.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7491,7 +7499,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["body-parser", "npm:1.19.2"],\
             ["bootstrap", "npm:3.4.1"],\
             ["bson", "npm:4.6.1"],\
-            ["busboy", "npm:0.2.14"],\
+            ["busboy", "npm:1.4.0"],\
             ["chai", "npm:4.3.6"],\
             ["clean-webpack-plugin", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:4.0.0"],\
             ["cli-color", "npm:2.0.1"],\
@@ -9353,6 +9361,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/streamsearch-npm-0.1.2-813180eb1c-d2db57cbfb.zip/node_modules/streamsearch/",\
           "packageDependencies": [\
             ["streamsearch", "npm:0.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:1.1.0", {\
+          "packageLocation": "./.yarn/cache/streamsearch-npm-1.1.0-fc3ad6536d-1cce16cea8.zip/node_modules/streamsearch/",\
+          "packageDependencies": [\
+            ["streamsearch", "npm:1.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
