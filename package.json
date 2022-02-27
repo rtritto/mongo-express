@@ -42,7 +42,7 @@
     "json2csv": "^3.7.1",
     "lodash": "^4.17.21",
     "method-override": "^2.3.10",
-    "mongodb": "^3.6.2",
+    "mongodb": "^4.4.0",
     "mongodb-query-parser": "^2.4.4",
     "morgan": "^1.10.0",
     "patch-package": "^6.4.7",
