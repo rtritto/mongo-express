@@ -1497,6 +1497,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/webidl-conversions@npm:*":
+  version: 6.1.1
+  resolution: "@types/webidl-conversions@npm:6.1.1"
+  checksum: 0f8d6ea939dda77b393ce40e9a1c407af1a9f765744eda4148d0a192f335222bb54989fd6d59a6e5116fb388df9f1cad873a66a9d624f025488cf1e090dd45bd
+  languageName: node
+  linkType: hard
+
+"@types/whatwg-url@npm:^8.2.1":
+  version: 8.2.1
+  resolution: "@types/whatwg-url@npm:8.2.1"
+  dependencies:
+    "@types/node": "npm:*"
+    "@types/webidl-conversions": "npm:*"
+  checksum: b09b440fb088f8bc85135fa486363d11f6b73ae1b8b3064f244327a3bd6f55ec06161ef04d5d634a0a91283140fab77f8ab91e072063b7ff3d196d154e3881c8
+  languageName: node
+  linkType: hard
+
 "@ungap/promise-all-settled@npm:1.1.2":
   version: 1.1.2
   resolution: "@ungap/promise-all-settled@npm:1.1.2"
@@ -2139,16 +2156,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bl@npm:^2.2.1":
-  version: 2.2.1
-  resolution: "bl@npm:2.2.1"
-  dependencies:
-    readable-stream: "npm:^2.3.5"
-    safe-buffer: "npm:^5.1.1"
-  checksum: 012003f492a6b5e58afda3eb4d29801d86055605204bef12da234a20cea30efc6853eee39b1ad2a2dc11ac734cd67e180c01d73199cb9ad209b98274c85bb4bc
-  languageName: node
-  linkType: hard
-
 "bluebird@npm:^3.7.2":
   version: 3.7.2
   resolution: "bluebird@npm:3.7.2"
@@ -2267,14 +2274,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bson@npm:^1.0.1, bson@npm:^1.1.4":
+"bson@npm:^1.0.1":
   version: 1.1.6
   resolution: "bson@npm:1.1.6"
   checksum: 8d71ad510f9f9beb0ab508ee9f371e41b22033a21e057990d307d7cf2e0b7f52985482e10d1e3135d05fd7204691fee1b62644973af066efddae35e08ff3b504
   languageName: node
   linkType: hard
 
-"bson@npm:^4.6.1, bson@npm:^4.6.4":
+"bson@npm:^4.6.1, bson@npm:^4.6.3, bson@npm:^4.6.4":
   version: 4.6.4
   resolution: "bson@npm:4.6.4"
   dependencies:
@@ -3056,10 +3063,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"denque@npm:^1.4.1":
-  version: 1.5.1
-  resolution: "denque@npm:1.5.1"
-  checksum: 90a2dfec665b14220c0ea916d2b32ee4dd9f024bb53cf7c0a93e0b4c344e84be31d6b5df8b5d38cda7a7db1e59fe8da2d2494fe35c39d3d17cac6f744b14d2b0
+"denque@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "denque@npm:2.0.1"
+  checksum: 1bbb26cf2e55cb3ffe187c4851243a2e5e47e60c1037673c5c04ef931c26e30d9fead16a552d50cbd76351c0a1f064a92413a124ce8810b4408b48194402dc72
   languageName: node
   linkType: hard
 
@@ -5681,7 +5688,7 @@ __metadata:
     lodash: "npm:~4.17.4"
     method-override: "npm:^3.0.0"
     mocha: "npm:^10.0.0"
-    mongodb: "npm:^3.6.2"
+    mongodb: "npm:^4.6.0"
     mongodb-query-parser: "npm:^2.4.6"
     morgan: "npm:^1.10.0"
     nodemon: "npm:^2.0.16"
@@ -5698,6 +5705,16 @@ __metadata:
     mongo-express: ./app.js
   languageName: unknown
   linkType: soft
+
+"mongodb-connection-string-url@npm:^2.5.2":
+  version: 2.5.2
+  resolution: "mongodb-connection-string-url@npm:2.5.2"
+  dependencies:
+    "@types/whatwg-url": "npm:^8.2.1"
+    whatwg-url: "npm:^11.0.0"
+  checksum: e695b40bafa763f376702981aae9a91d0d14d95d6137cd1391a31daaad9a17b4f04772daeb9d619b1ddc13e87fb216f822a64b88fe60bf7dbd92f3523bb58b03
+  languageName: node
+  linkType: hard
 
 "mongodb-extended-json@npm:^1.10.2":
   version: 1.11.1
@@ -5739,33 +5756,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mongodb@npm:^3.6.2":
-  version: 3.7.3
-  resolution: "mongodb@npm:3.7.3"
+"mongodb@npm:^4.6.0":
+  version: 4.6.0
+  resolution: "mongodb@npm:4.6.0"
   dependencies:
-    bl: "npm:^2.2.1"
-    bson: "npm:^1.1.4"
-    denque: "npm:^1.4.1"
-    optional-require: "npm:^1.1.8"
-    safe-buffer: "npm:^5.1.2"
-    saslprep: "npm:^1.0.0"
+    bson: "npm:^4.6.3"
+    denque: "npm:^2.0.1"
+    mongodb-connection-string-url: "npm:^2.5.2"
+    saslprep: "npm:^1.0.3"
+    socks: "npm:^2.6.2"
   dependenciesMeta:
     saslprep:
       optional: true
-  peerDependenciesMeta:
-    aws4:
-      optional: true
-    bson-ext:
-      optional: true
-    kerberos:
-      optional: true
-    mongodb-client-encryption:
-      optional: true
-    mongodb-extjson:
-      optional: true
-    snappy:
-      optional: true
-  checksum: 5a9bb89a22986766defbcfd9d75bc2a195ba774aac6ee565db744e770bd5995385585f9c8bb6b8e9d079e7d4e43602086815e8ec7350de86bc57386fde41fd4e
+  checksum: c10fb64489e163d3c11021feca653340d74d71937311f5caddad69b24dd59aa26e9cb7fb7d05a42c1a250957352b51f5b9142f240e127ed7d34a00f48a45fb90
   languageName: node
   linkType: hard
 
@@ -6073,15 +6076,6 @@ __metadata:
     minimist: "npm:~0.0.1"
     wordwrap: "npm:~0.0.2"
   checksum: dd9abe3f05e8c53d0d4b359088642c9a96198b61db2977779ebac90f32541d7fda0a7980643f01c564ac56bc365c34f6dfb95590d442de2dcdd04118d8d274dc
-  languageName: node
-  linkType: hard
-
-"optional-require@npm:^1.1.8":
-  version: 1.1.8
-  resolution: "optional-require@npm:1.1.8"
-  dependencies:
-    require-at: "npm:^1.0.6"
-  checksum: 8d5cb7fc741f604db2c24ac6f4f6172da3b056ec9607d2ec873733af0f9e72fc34b0d77e56d4b30b7d813447fb938ac50d3e7d2a624cfea55114545a848ac8d0
   languageName: node
   linkType: hard
 
@@ -6477,7 +6471,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"punycode@npm:^2.1.0":
+"punycode@npm:^2.1.0, punycode@npm:^2.1.1":
   version: 2.1.1
   resolution: "punycode@npm:2.1.1"
   checksum: fd728ef9db90e7b4db37d5c4937d6c6302cf4f64748b2dea3abbf1efd21e6193bb670efb7814766c858b2e1ccdb65ce34e44b498d734922e1dcb2a8623a925d8
@@ -6593,7 +6587,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"readable-stream@npm:^2.2.2, readable-stream@npm:^2.3.5":
+"readable-stream@npm:^2.2.2":
   version: 2.3.7
   resolution: "readable-stream@npm:2.3.7"
   dependencies:
@@ -6748,13 +6742,6 @@ __metadata:
   version: 1.6.1
   resolution: "repeat-string@npm:1.6.1"
   checksum: aa893b7e42c56727dce0f9bf902c5156b9b914c3a31b4a3831e673d43502ce7613311ba38b2c1852c7ea4f9f88e10aa985e162e7ae2e424e0a0ebd761b21f678
-  languageName: node
-  linkType: hard
-
-"require-at@npm:^1.0.6":
-  version: 1.0.6
-  resolution: "require-at@npm:1.0.6"
-  checksum: 0898eddbba76bd04db5a9e8211127ca829bf2539e997c97b8f10ec470927b0c2173957bbe24e49f7b95b71a190c75a05e44ea2d6f6f58309d9983188a90bbb26
   languageName: node
   linkType: hard
 
@@ -6914,7 +6901,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"safe-buffer@npm:5.2.1, safe-buffer@npm:^5.1.0, safe-buffer@npm:^5.1.1, safe-buffer@npm:^5.1.2, safe-buffer@npm:~5.2.0":
+"safe-buffer@npm:5.2.1, safe-buffer@npm:^5.1.0, safe-buffer@npm:~5.2.0":
   version: 5.2.1
   resolution: "safe-buffer@npm:5.2.1"
   checksum: da8a21b3336a21c152eb3ba8ab41acde5772644f026d4b6e5f9fd8afa4f0cf407c113b19a362580fab9aea8beea295465432fc7684f9ff38aac559bb1b5528cd
@@ -6928,7 +6915,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"saslprep@npm:^1.0.0":
+"saslprep@npm:^1.0.3":
   version: 1.0.3
   resolution: "saslprep@npm:1.0.3"
   dependencies:
@@ -7620,6 +7607,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tr46@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "tr46@npm:3.0.0"
+  dependencies:
+    punycode: "npm:^2.1.1"
+  checksum: 3a481676bf6956ca7ffd4b21c5826f61d7dd57dcad56ee202a5d9d5a34f5ddd1a98ee938366f7964e8dfabc640377d53725164724da49a7a2331694270a1b7d8
+  languageName: node
+  linkType: hard
+
 "tree-kill@npm:^1.2.2":
   version: 1.2.2
   resolution: "tree-kill@npm:1.2.2"
@@ -7924,6 +7920,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"webidl-conversions@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "webidl-conversions@npm:7.0.0"
+  checksum: bdbe11c68c3136ce4e720182d2434215cff65d619de7e7ddcbdc17c7d62aaaf0e16c3a84b2c6e55ffe347e77dea2d55299c7e3690fb07148a8fbe46ead27c55f
+  languageName: node
+  linkType: hard
+
 "webpack-cli@npm:^4.9.2":
   version: 4.9.2
   resolution: "webpack-cli@npm:4.9.2"
@@ -8008,6 +8011,16 @@ __metadata:
   bin:
     webpack: bin/webpack.js
   checksum: 82ea1fdc8ec9cf8c5576ea2e9589aa46fa7e0e15e24bceb934cd5da137af6304639b240c4772fc2e75952a392fc80ac2bf7fbc87537420da0985696ab71d1935
+  languageName: node
+  linkType: hard
+
+"whatwg-url@npm:^11.0.0":
+  version: 11.0.0
+  resolution: "whatwg-url@npm:11.0.0"
+  dependencies:
+    tr46: "npm:^3.0.0"
+    webidl-conversions: "npm:^7.0.0"
+  checksum: ee3a532bfb026d307b1c7f75413a45d19292e4eff4f9db62e020ac67d00f6ac81032011604832e3b1e65665c603e6024148570dbe883a71ba93ea4838beeb162
   languageName: node
   linkType: hard
 
