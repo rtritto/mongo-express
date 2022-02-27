@@ -1,3 +1,12 @@
+# yarn berry
+.yarn/*
+# !.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
 build-assets.json
 
 # OS
@@ -11,7 +20,6 @@ Thumbs.db
 # ==========================
 .nodemonignore
 .sass-cache/
-node_modules/
 public/lib/
 app/tests/coverage/
 .bower-*/
