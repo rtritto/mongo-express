@@ -94,10 +94,14 @@ module.exports = {
     /** @type {import('mongodb').MongoClientOptions} */
     connectionOptions: {
       // ssl: connect to the server using secure SSL
-      ssl: process.env.ME_CONFIG_MONGODB_SSL || mongo.ssl,
+      ssl: process.env.ME_CONFIG_MONGODB_SSL ?
+        process.env.ME_CONFIG_MONGODB_SSL === 'true' :
+        mongo.ssl,
 
       // sslValidate: validate mongod server certificate against CA
-      sslValidate: process.env.ME_CONFIG_MONGODB_SSLVALIDATE || true,
+      sslValidate: process.env.ME_CONFIG_MONGODB_SSLVALIDATE ?
+        process.env.ME_CONFIG_MONGODB_SSLVALIDATE === 'true' :
+        true,
 
       // sslCA: array of valid CA certificates
       sslCA: sslCAFromEnv ? [sslCAFromEnv] : [],
