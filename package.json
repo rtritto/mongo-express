@@ -47,8 +47,7 @@
     "morgan": "^1.10.0",
     "patch-package": "^6.4.7",
     "serve-favicon": "^2.5.0",
-    "swig-templates": "^2.0.3",
-    "update-notifier": "^5.1.0"
+    "swig-templates": "^2.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.17.9",

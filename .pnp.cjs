@@ -77,7 +77,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["serve-favicon", "npm:2.5.0"],\
             ["supertest", "npm:6.2.2"],\
             ["swig-templates", "npm:2.0.3"],\
-            ["update-notifier", "npm:5.1.0"],\
             ["webpack", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:5.72.0"],\
             ["webpack-cli", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:4.9.2"]\
           ],\
@@ -7391,7 +7390,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["serve-favicon", "npm:2.5.0"],\
             ["supertest", "npm:6.2.2"],\
             ["swig-templates", "npm:2.0.3"],\
-            ["update-notifier", "npm:5.1.0"],\
             ["webpack", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:5.72.0"],\
             ["webpack-cli", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:4.9.2"]\
           ],\
