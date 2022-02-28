@@ -5,6 +5,8 @@ const path = require('path');
 const AssetsPlugin = require('assets-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 const env = process.env.NODE_ENV || 'development';
 const isDev = env === 'development';
@@ -18,7 +20,7 @@ function resolveModulePath(name) {
 }
 
 const codemirrorPath = resolveModulePath('codemirror');
-const bootstrapPath = resolveModulePath('bootstrap');
+const lineAwesomePath = resolveModulePath('line-awesome');
 
 module.exports = {
   mode: isProd ? 'production' : 'development',
@@ -45,7 +47,7 @@ module.exports = {
     },
 
     // Shared
-    vendor: './lib/scripts/vendor.js',
+    vendor: ['./lib/scripts/vendor.js', './public/stylesheets/style.scss'],
     codemirror: {
       import: './lib/scripts/codeMirrorLoader.js',
       dependOn: 'vendor',
@@ -53,7 +55,7 @@ module.exports = {
   },
   output: {
     filename: `[name]${fileSuffix}.js`,
-    path: path.join(__dirname, 'build'),
+    path: path.resolve(__dirname, './build'),
     publicPath: 'public/',
   },
 
@@ -67,8 +69,41 @@ module.exports = {
           presets: ['@babel/preset-env'],
         },
       },
+      {
+        test: /\.s[ac]ss$/,
+        // type: 'asset',
+        use: [
+          // TODO
+          // Creates `style` nodes from JS strings
+          isProd ? MiniCssExtractPlugin.loader : 'style-loader',
+          // OR
+          // MiniCssExtractPlugin.loader,
+          // OR
+          // 'style-loader',
+          // Translates CSS into CommonJS
+          'css-loader',
+          // TODO remove?
+          'postcss-loader',
+          // Compiles Sass to CSS
+          'sass-loader',
+          // {
+          //   loader: 'file-loader',
+          //   options: {
+          //     name: '[name].css',
+          //     outputPath: 'css',
+          //   },
+          // },
+          // 'extract-loader', 'css-loader', 'sass-loader',
+        ],
+      },
     ],
   },
+
+  // optimization: {
+  //   minimizer: [
+  //     new CssMinimizerPlugin(),
+  //   ],
+  // },
 
   plugins: [
     new CleanWebpackPlugin(),
@@ -80,20 +115,19 @@ module.exports = {
 
     new CopyWebpackPlugin({
       patterns: [
-        { from: 'public/images/*', to: 'img/[name][ext]' },
-        { from: 'public/stylesheets/*', to: 'css/[name][ext]' },
+        { from: 'public/images', to: 'img' },
 
-        { from: path.join(codemirrorPath, '/lib/codemirror.css'), to: 'css/[name][ext]' },
-        { from: path.join(codemirrorPath, '/theme'), to: 'css/theme/[name][ext]' },
+        { from: path.join(codemirrorPath, '/lib/codemirror.css'), to: 'css' },
+        { from: path.join(codemirrorPath, '/theme'), to: 'css/theme' },
 
-        { from: path.join(bootstrapPath, '/dist/fonts'), to: 'fonts/[name][ext]' },
-        { from: path.join(bootstrapPath, '/dist/css/bootstrap.min.css'), to: 'css/[name][ext]' },
-        { from: path.join(bootstrapPath, '/dist/css/bootstrap.min.css.map'), to: 'css/[name][ext]' },
-        { from: path.join(bootstrapPath, '/dist/css/bootstrap-theme.min.css'), to: 'css/[name][ext]' },
-        { from: path.join(bootstrapPath, '/dist/css/bootstrap-theme.min.css.map'), to: 'css/[name][ext]' },
+        { from: path.join(lineAwesomePath, '/dist/font-awesome-line-awesome/webfonts'), to: 'webfonts' },
       ],
     }),
 
     new AssetsPlugin({ filename: 'build-assets.json' }),
+
+    // isProd ? new MiniCssExtractPlugin() : [],
+    // OR
+    // new MiniCssExtractPlugin(),
   ].filter((n) => !!n),
 };
