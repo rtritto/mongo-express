@@ -48,7 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["clean-webpack-plugin", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:4.0.0"],\
             ["cli-color", "npm:2.0.2"],\
             ["codemirror", "npm:5.65.2"],\
-            ["commander", "npm:2.20.3"],\
+            ["commander", "npm:9.1.0"],\
             ["concurrently", "npm:7.1.0"],\
             ["cookie-parser", "npm:1.4.6"],\
             ["copy-webpack-plugin", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:10.2.4"],\
@@ -4174,6 +4174,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["commander", "npm:7.2.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:9.1.0", {\
+          "packageLocation": "./.yarn/cache/commander-npm-9.1.0-516d19937f-1428319b6b.zip/node_modules/commander/",\
+          "packageDependencies": [\
+            ["commander", "npm:9.1.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["comment-json", [\
@@ -7775,7 +7782,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["clean-webpack-plugin", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:4.0.0"],\
             ["cli-color", "npm:2.0.2"],\
             ["codemirror", "npm:5.65.2"],\
-            ["commander", "npm:2.20.3"],\
+            ["commander", "npm:9.1.0"],\
             ["concurrently", "npm:7.1.0"],\
             ["cookie-parser", "npm:1.4.6"],\
             ["copy-webpack-plugin", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:10.2.4"],\
