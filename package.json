@@ -30,7 +30,7 @@
     "bson": "^4.6.4",
     "busboy": "^1.6.0",
     "cli-color": "^2.0.2",
-    "commander": "^2.9.0",
+    "commander": "^9.3.0",
     "cookie-parser": "^1.4.6",
     "csurf": "^1.11.0",
     "errorhandler": "^1.5.1",
