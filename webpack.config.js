@@ -62,7 +62,7 @@ module.exports = {
       {
         test: /.js$/,
         loader: 'babel-loader',
-        exclude: /(node_modules)/,
+        exclude: /(.yarn)/,
         options: {
           presets: ['@babel/preset-env'],
         },
