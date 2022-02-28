@@ -5698,7 +5698,6 @@ __metadata:
     serve-favicon: "npm:^2.5.0"
     supertest: "npm:^6.2.3"
     swig-templates: "npm:^2.0.3"
-    update-notifier: "npm:^5.1.0"
     webpack: "npm:^5.72.1"
     webpack-cli: "npm:^4.9.2"
   bin:
