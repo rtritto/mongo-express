@@ -2890,7 +2890,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^2.20.0, commander@npm:^2.9.0":
+"commander@npm:^2.20.0":
   version: 2.20.3
   resolution: "commander@npm:2.20.3"
   checksum: a6cb7ce73cc1db74a2da4bb6b4fc4f9a655ba35beb90f32bf5831d7d3be610dafc01dcc8a17f8204cf4e3f1f434d2115b7db56dfb0b827d42b10d1ba6ae8cbb4
@@ -2908,6 +2908,13 @@ __metadata:
   version: 7.2.0
   resolution: "commander@npm:7.2.0"
   checksum: 1270a98c752348d62803dd6214bba584a13e5c80e0d32d590740f26c534209882a93daf471697326ad80b3f4f0417df31aca7b127e01efee58fe883b47c1a492
+  languageName: node
+  linkType: hard
+
+"commander@npm:^9.3.0":
+  version: 9.3.0
+  resolution: "commander@npm:9.3.0"
+  checksum: 110e8e7a5476adfc7d76a2cc4928077dd094053d4387213db5f343327f4f7ef242d13d123788aacf172706264b184b5fa94b29556d9506493ca3325f31782f54
   languageName: node
   linkType: hard
 
@@ -6061,7 +6068,7 @@ __metadata:
     clean-webpack-plugin: "npm:^4.0.0"
     cli-color: "npm:^2.0.2"
     codemirror: "npm:^5.65.4"
-    commander: "npm:^2.9.0"
+    commander: "npm:^9.3.0"
     concurrently: "npm:^7.2.1"
     cookie-parser: "npm:^1.4.6"
     copy-webpack-plugin: "npm:^11.0.0"

@@ -48,7 +48,7 @@ const RAW_RUNTIME_STATE =
           ["clean-webpack-plugin", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:4.0.0"],\
           ["cli-color", "npm:2.0.2"],\
           ["codemirror", "npm:5.65.4"],\
-          ["commander", "npm:2.20.3"],\
+          ["commander", "npm:9.3.0"],\
           ["concurrently", "npm:7.2.1"],\
           ["cookie-parser", "npm:1.4.6"],\
           ["copy-webpack-plugin", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:11.0.0"],\
@@ -4223,6 +4223,13 @@ const RAW_RUNTIME_STATE =
           ["commander", "npm:7.2.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:9.3.0", {\
+        "packageLocation": "./.yarn/cache/commander-npm-9.3.0-1393a6e1f6-110e8e7a54.zip/node_modules/commander/",\
+        "packageDependencies": [\
+          ["commander", "npm:9.3.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["comment-json", [\
@@ -7889,7 +7896,7 @@ const RAW_RUNTIME_STATE =
           ["clean-webpack-plugin", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:4.0.0"],\
           ["cli-color", "npm:2.0.2"],\
           ["codemirror", "npm:5.65.4"],\
-          ["commander", "npm:2.20.3"],\
+          ["commander", "npm:9.3.0"],\
           ["concurrently", "npm:7.2.1"],\
           ["cookie-parser", "npm:1.4.6"],\
           ["copy-webpack-plugin", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:11.0.0"],\
