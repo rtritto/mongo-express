@@ -52,6 +52,7 @@
   "devDependencies": {
     "@babel/core": "^7.18.2",
     "@babel/preset-env": "^7.18.2",
+    "@yarnpkg/sdks": "^3.0.0-rc.6",
     "assets-webpack-plugin": "^7.1.1",
     "babel-loader": "^8.2.5",
     "bootstrap": "^3.3.7",
