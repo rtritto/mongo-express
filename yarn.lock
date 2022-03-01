@@ -5670,7 +5670,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lru-cache@npm:^4.0.1":
+"lru-cache@npm:^4.0.1, lru-cache@npm:^4.0.3":
   version: 4.1.5
   resolution: "lru-cache@npm:4.1.5"
   dependencies:
@@ -5781,6 +5781,16 @@ __metadata:
   version: 1.5.0
   resolution: "memory-pager@npm:1.5.0"
   checksum: 6b00ff499b3b6a168d8b713d5c33f3ea08fd24c19a8b42adc64847cfa62acdf7a3cfd81f02d6eab51773b6e118c628ba6694ecb55647d4c1efe7b11e67017e35
+  languageName: node
+  linkType: hard
+
+"memorystore@npm:^1.6.7":
+  version: 1.6.7
+  resolution: "memorystore@npm:1.6.7"
+  dependencies:
+    debug: ^4.3.0
+    lru-cache: ^4.0.3
+  checksum: caa5cc523ec39ad8b317ddb5560771df28a10266281066f554bd77b2179a34f21f06891fffbcfe875ed1afc79cf7e106714eff98189ded1e6bfc273159d07948
   languageName: node
   linkType: hard
 
