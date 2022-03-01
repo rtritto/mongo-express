@@ -24,6 +24,7 @@ module.exports = {
     'no-param-reassign': ['off'],
     'prefer-arrow-callback': ['off'],
     'no-nested-ternary': ['off'],
+    'no-alert': ['off'],
 
     'no-restricted-syntax': ['off'],
     'no-mixed-operators': ['off'],
