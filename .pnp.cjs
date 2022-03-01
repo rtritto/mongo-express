@@ -66,6 +66,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jquery", "npm:3.6.0"],\
             ["json2csv", "npm:5.0.7"],\
             ["lodash", "npm:4.17.21"],\
+            ["memorystore", "npm:1.6.7"],\
             ["method-override", "npm:3.0.0"],\
             ["mocha", "npm:9.2.2"],\
             ["mongodb", "npm:4.5.0"],\
@@ -7483,6 +7484,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["memorystore", [\
+        ["npm:1.6.7", {\
+          "packageLocation": "./.yarn/cache/memorystore-npm-1.6.7-730d3622ac-caa5cc523e.zip/node_modules/memorystore/",\
+          "packageDependencies": [\
+            ["memorystore", "npm:1.6.7"],\
+            ["debug", "virtual:5a1b3f046c6200f09cee6e8120724cd08ee56ae67fca8835d35ab2095c2a4116681affe0dc3d6f52fa0522d02572c61ec073799a7e5983912c71fd0f2a00929b#npm:4.3.4"],\
+            ["lru-cache", "npm:4.1.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["merge-descriptors", [\
         ["npm:1.0.1", {\
           "packageLocation": "./.yarn/cache/merge-descriptors-npm-1.0.1-615287aaa8-5abc259d2a.zip/node_modules/merge-descriptors/",\
@@ -7800,6 +7812,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jquery", "npm:3.6.0"],\
             ["json2csv", "npm:5.0.7"],\
             ["lodash", "npm:4.17.21"],\
+            ["memorystore", "npm:1.6.7"],\
             ["method-override", "npm:3.0.0"],\
             ["mocha", "npm:9.2.2"],\
             ["mongodb", "npm:4.5.0"],\
