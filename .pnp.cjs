@@ -74,7 +74,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nodemon", "npm:2.0.15"],\
             ["patch-package", "npm:6.4.7"],\
             ["pre-commit", "npm:1.2.2"],\
-            ["renderjson", "https://github.com/dozoisch/renderjson.git#commit=cd0ef870c1298d53f09555da54e4bf57a0d21414"],\
+            ["renderjson", "https://github.com/rtritto/renderjson.git#commit=0c9ed4af60c3ea8e1c5095446f5833b97c574154"],\
             ["serve-favicon", "npm:2.5.0"],\
             ["supertest", "npm:6.2.2"],\
             ["swig-templates", "npm:2.0.3"],\
@@ -7808,7 +7808,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nodemon", "npm:2.0.15"],\
             ["patch-package", "npm:6.4.7"],\
             ["pre-commit", "npm:1.2.2"],\
-            ["renderjson", "https://github.com/dozoisch/renderjson.git#commit=cd0ef870c1298d53f09555da54e4bf57a0d21414"],\
+            ["renderjson", "https://github.com/rtritto/renderjson.git#commit=0c9ed4af60c3ea8e1c5095446f5833b97c574154"],\
             ["serve-favicon", "npm:2.5.0"],\
             ["supertest", "npm:6.2.2"],\
             ["swig-templates", "npm:2.0.3"],\
@@ -8983,10 +8983,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["renderjson", [\
-        ["https://github.com/dozoisch/renderjson.git#commit=cd0ef870c1298d53f09555da54e4bf57a0d21414", {\
-          "packageLocation": "./.yarn/cache/renderjson-https-71bc6b4c9e-77c3c5f575.zip/node_modules/renderjson/",\
+        ["https://github.com/rtritto/renderjson.git#commit=0c9ed4af60c3ea8e1c5095446f5833b97c574154", {\
+          "packageLocation": "./.yarn/cache/renderjson-https-312ce7950b-4a0c4415c8.zip/node_modules/renderjson/",\
           "packageDependencies": [\
-            ["renderjson", "https://github.com/dozoisch/renderjson.git#commit=cd0ef870c1298d53f09555da54e4bf57a0d21414"]\
+            ["renderjson", "https://github.com/rtritto/renderjson.git#commit=0c9ed4af60c3ea8e1c5095446f5833b97c574154"]\
           ],\
           "linkType": "HARD"\
         }]\

@@ -6001,7 +6001,7 @@ __metadata:
     nodemon: ^2.0.15
     patch-package: ^6.4.7
     pre-commit: ^1.2.2
-    renderjson: "dozoisch/renderjson#cd0ef870c1298d53f09555da54e4bf57a0d21414"
+    renderjson: "rtritto/renderjson#master"
     serve-favicon: ^2.5.0
     supertest: ^6.2.2
     swig-templates: ^2.0.3
@@ -7047,10 +7047,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renderjson@dozoisch/renderjson#cd0ef870c1298d53f09555da54e4bf57a0d21414":
-  version: 1.3.0
-  resolution: "renderjson@https://github.com/dozoisch/renderjson.git#commit=cd0ef870c1298d53f09555da54e4bf57a0d21414"
-  checksum: 77c3c5f5755dc6f3e5fc23dae93ee31fa329a9f692cd8fc52bd334421ae30251c6dacb349e85078cc1361eebf65ddf5b033c44b2424d67bb23dc7a7286a5483d
+"renderjson@rtritto/renderjson#master":
+  version: 1.4.0
+  resolution: "renderjson@https://github.com/rtritto/renderjson.git#commit=0c9ed4af60c3ea8e1c5095446f5833b97c574154"
+  checksum: 4a0c4415c8c746756336bd6a675b1a1d7f707cf98d4a67225c0fdb873805120a4f3794f070c1b6bbc129bc3915f88363dff5ddf30e5466c5889caabf99d7cbd3
   languageName: node
   linkType: hard
 
