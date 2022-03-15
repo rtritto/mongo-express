@@ -3223,7 +3223,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:4.3.4, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4":
+"debug@npm:4, debug@npm:4.3.4, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.0, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
   dependencies:
@@ -3760,17 +3760,6 @@ __metadata:
   peerDependencies:
     eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8
   checksum: d6509c7e368481d46e8213ffb341085a0c9dd83cdf0a96f28a69701ff571a80453532a7a68a60b29c8f74d8d33dbf049c2c2fff4592104cf6bf6ed968fc4ead1
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-lodash@npm:^7.1.0":
-  version: 7.4.0
-  resolution: "eslint-plugin-lodash@npm:7.4.0"
-  dependencies:
-    lodash: "npm:^4.17.21"
-  peerDependencies:
-    eslint: ">=2"
-  checksum: 4312c5d2173d1a37230e217e428dbaad712130c321ce3d404dd0b1616e2d48b9288b52b9e0259b396ad426ebdc04568fc139a4c60ca07b4f40e283c4f43de50a
   languageName: node
   linkType: hard
 
@@ -5623,7 +5612,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.15, lodash@npm:^4.17.21, lodash@npm:~4.17.4":
+"lodash@npm:^4.17.15, lodash@npm:^4.17.21":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: 3ac18e92108d68f88429fcddee609e42cf2b653583d9bac22308815a4cd6b185b89a0ad0d9b0c670c371d9d6b61571a98fee6b36e1db14e52766ca253ed9cba0
@@ -5788,9 +5777,9 @@ __metadata:
   version: 1.6.7
   resolution: "memorystore@npm:1.6.7"
   dependencies:
-    debug: ^4.3.0
-    lru-cache: ^4.0.3
-  checksum: caa5cc523ec39ad8b317ddb5560771df28a10266281066f554bd77b2179a34f21f06891fffbcfe875ed1afc79cf7e106714eff98189ded1e6bfc273159d07948
+    debug: "npm:^4.3.0"
+    lru-cache: "npm:^4.0.3"
+  checksum: 3efbea117127076eb652d98cc705aeb0909106441590206412b8f970fc1b3de3910e2e805c8ec44be03b313e6d040adf8a8bbeea167a6e020c19aad77cae7b69
   languageName: node
   linkType: hard
 
@@ -6087,7 +6076,6 @@ __metadata:
     eslint: "npm:^8.16.0"
     eslint-config-airbnb-base: "npm:^15.0.0"
     eslint-plugin-import: "npm:^2.26.0"
-    eslint-plugin-lodash: "npm:^7.1.0"
     express: "npm:4.17.1"
     express-fileupload: "npm:^1.4.0"
     express-session: "npm:^1.17.3"
@@ -6095,7 +6083,7 @@ __metadata:
     gridfs-stream: "npm:^1.1.1"
     jquery: "npm:^3.5.1"
     json2csv: "npm:^5.0.7"
-    lodash: "npm:~4.17.4"
+    memorystore: "npm:^1.6.7"
     method-override: "npm:^3.0.0"
     mocha: "npm:^10.0.0"
     mongodb: "npm:^4.6.0"
