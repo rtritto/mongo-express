@@ -45,7 +45,6 @@
     "mongodb": "^4.5.0",
     "mongodb-query-parser": "^2.4.4",
     "morgan": "^1.10.0",
-    "patch-package": "^6.4.7",
     "serve-favicon": "^2.5.0",
     "swig-templates": "^2.0.3"
   },
@@ -78,7 +77,6 @@
   },
   "license": "MIT",
   "scripts": {
-    "postinstall": "patch-package",
     "lint": "eslint .",
     "start": "NODE_ENV=production yarn node app",
     "start-dev": "concurrently --kill-others \"nodemon app --watch lib\" \"yarn build-dev\"",
