@@ -18,7 +18,7 @@ describe('BSON', function () {
       });
     });
 
-    it('should convert ObjectID to BSON', function () {
+    it('should convert ObjectID (deprecated) and ObjectId to BSON', function () {
       const test = '{_id: ObjectID(), id2: ObjectId()}';
       const result = libBson.toBSON(test);
       expect(result).to.have.property('_id').to.be.an.instanceof(bson.ObjectId);
@@ -102,7 +102,7 @@ describe('BSON', function () {
       expect(test2).to.eql(test);
     });
 
-    it('should convert ObjectID to string', function () {
+    it('should convert ObjectId to string', function () {
       const test = {
         id: new bson.ObjectId(),
         id2: new bson.ObjectId('4fb1299686a989240b000001'),
