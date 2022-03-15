@@ -57,7 +57,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.13.0"],\
             ["eslint-config-airbnb-base", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:15.0.0"],\
             ["eslint-plugin-import", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:2.26.0"],\
-            ["eslint-plugin-lodash", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:7.4.0"],\
             ["express", "npm:4.17.3"],\
             ["express-fileupload", "npm:1.3.1"],\
             ["express-session", "npm:1.17.2"],\
@@ -65,7 +64,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gridfs-stream", "npm:1.1.1"],\
             ["jquery", "npm:3.6.0"],\
             ["json2csv", "npm:5.0.7"],\
-            ["lodash", "npm:4.17.21"],\
             ["memorystore", "npm:1.6.7"],\
             ["method-override", "npm:3.0.0"],\
             ["mocha", "npm:9.2.2"],\
@@ -5340,29 +5338,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["eslint-plugin-lodash", [\
-        ["npm:7.4.0", {\
-          "packageLocation": "./.yarn/cache/eslint-plugin-lodash-npm-7.4.0-2422b9c079-7557cded64.zip/node_modules/eslint-plugin-lodash/",\
-          "packageDependencies": [\
-            ["eslint-plugin-lodash", "npm:7.4.0"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:7.4.0", {\
-          "packageLocation": "./.yarn/__virtual__/eslint-plugin-lodash-virtual-55e0f73b6c/0/cache/eslint-plugin-lodash-npm-7.4.0-2422b9c079-7557cded64.zip/node_modules/eslint-plugin-lodash/",\
-          "packageDependencies": [\
-            ["eslint-plugin-lodash", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:7.4.0"],\
-            ["@types/eslint", null],\
-            ["eslint", "npm:8.13.0"],\
-            ["lodash", "npm:4.17.21"]\
-          ],\
-          "packagePeers": [\
-            "@types/eslint",\
-            "eslint"\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["eslint-scope", [\
         ["npm:5.1.1", {\
           "packageLocation": "./.yarn/cache/eslint-scope-npm-5.1.1-71fe59b18a-47e4b6a3f0.zip/node_modules/eslint-scope/",\
@@ -7803,7 +7778,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.13.0"],\
             ["eslint-config-airbnb-base", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:15.0.0"],\
             ["eslint-plugin-import", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:2.26.0"],\
-            ["eslint-plugin-lodash", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:7.4.0"],\
             ["express", "npm:4.17.3"],\
             ["express-fileupload", "npm:1.3.1"],\
             ["express-session", "npm:1.17.2"],\
@@ -7811,7 +7785,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gridfs-stream", "npm:1.1.1"],\
             ["jquery", "npm:3.6.0"],\
             ["json2csv", "npm:5.0.7"],\
-            ["lodash", "npm:4.17.21"],\
             ["memorystore", "npm:1.6.7"],\
             ["method-override", "npm:3.0.0"],\
             ["mocha", "npm:9.2.2"],\
