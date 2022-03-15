@@ -11,7 +11,6 @@ module.exports = {
   },
   plugins: [
     'import',
-    'lodash',
   ],
   rules: {
     strict: ['error', 'global'],
@@ -44,14 +43,6 @@ module.exports = {
         '**/webpack.config.js',
       ],
     }],
-
-    'lodash/callback-binding': ['error'],
-    'lodash/collection-method-value': ['error'],
-    'lodash/collection-return': ['error'],
-    'lodash/no-double-unwrap': ['error'],
-    'lodash/no-extra-args': ['error'],
-    'lodash/no-unbound-this': ['error'],
-    'lodash/unwrap': ['error'],
 
     // To be turned on
     'no-shadow': ['off', { allow: ['err', 'error'] }],
