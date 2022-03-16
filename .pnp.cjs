@@ -39,7 +39,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["assets-webpack-plugin", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:7.1.1"],\
             ["babel-loader", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:8.2.4"],\
             ["basic-auth-connect", "npm:1.0.0"],\
-            ["bluebird", "npm:3.7.2"],\
             ["body-parser", "npm:1.20.0"],\
             ["bootstrap", "npm:3.4.1"],\
             ["bson", "npm:4.6.2"],\
@@ -3531,15 +3530,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/binary-extensions-npm-2.2.0-180c33fec7-ccd267956c.zip/node_modules/binary-extensions/",\
           "packageDependencies": [\
             ["binary-extensions", "npm:2.2.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["bluebird", [\
-        ["npm:3.7.2", {\
-          "packageLocation": "./.yarn/cache/bluebird-npm-3.7.2-6a54136ee3-869417503c.zip/node_modules/bluebird/",\
-          "packageDependencies": [\
-            ["bluebird", "npm:3.7.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7677,7 +7667,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["assets-webpack-plugin", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:7.1.1"],\
             ["babel-loader", "virtual:42cd1db61dd0b996e4ff52188ac9f09ba785c9efa43ef4f105922b2005a414d1fb6b3d6b894fa208d676ad146010baea997817ecd1bbb46a764b12eceaeb96ff#npm:8.2.4"],\
             ["basic-auth-connect", "npm:1.0.0"],\
-            ["bluebird", "npm:3.7.2"],\
             ["body-parser", "npm:1.20.0"],\
             ["bootstrap", "npm:3.4.1"],\
             ["bson", "npm:4.6.2"],\
