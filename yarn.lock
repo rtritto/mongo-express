@@ -2336,13 +2336,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bluebird@npm:^3.7.2":
-  version: 3.7.2
-  resolution: "bluebird@npm:3.7.2"
-  checksum: 42df9603102ffbb71c0bc66056a66dce510ba136ab746fb2f783daa71843f14b6f22c2897cb224b556cc5546b9a524c224f6b1505e074310273a5ee5b222e072
-  languageName: node
-  linkType: hard
-
 "body-parser@npm:1.19.0":
   version: 1.19.0
   resolution: "body-parser@npm:1.19.0"
@@ -5979,7 +5972,6 @@ __metadata:
     assets-webpack-plugin: "npm:^7.1.1"
     babel-loader: "npm:^8.2.5"
     basic-auth-connect: "npm:^1.0.0"
-    bluebird: "npm:^3.7.2"
     body-parser: "npm:^1.20.0"
     bootstrap: "npm:^3.3.7"
     bson: "npm:^4.6.4"
