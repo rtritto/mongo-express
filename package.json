@@ -33,7 +33,7 @@
     "cookie-parser": "^1.4.6",
     "csurf": "^1.11.0",
     "errorhandler": "^1.5.1",
-    "express": "4.17.1",
+    "express": "5.0.0-beta.1",
     "express-fileupload": "^1.4.0",
     "express-session": "^1.17.3",
     "flat": "^2.0.1",
