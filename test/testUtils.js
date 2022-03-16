@@ -1,11 +1,13 @@
 'use strict';
 
-const Bluebird = require('bluebird');
+const { promisify } = require('util');
 
 exports.asPromise = function (fct) {
-  return Bluebird.fromCallback(fct);
+  return promisify(fct);
 };
 
 exports.timeoutPromise = function (delay) {
-  return Bluebird.delay(delay);
+  return new Promise((resolve) => {
+    setTimeout(resolve, delay);
+  });
 };
