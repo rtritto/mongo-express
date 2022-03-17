@@ -41,21 +41,24 @@ describe('BSON', function () {
     });
 
     it('should convert DBRef to BSON', function () {
+      const id = '579e18580bddc20700502419';
       const test = `{
-        ref: DBRef("coll", "579e18580bddc20700502419"),
-        ref2: DBRef("coll", "579e18580bddc20700502419", "db"),
-        ref3: DBRef("coll", "579e18580bddc20700502419", "")
+        ref: DBRef("coll", "${id}"),
+        ref2: DBRef("coll", "${id}", "db"),
+        ref3: DBRef("coll", "${id}", "")
       }`;
       const result = libBson.toBSON(test);
       expect(result).to.have.property('ref').to.be.an.instanceof(bson.DBRef);
       expect(result).to.have.property('ref').to.have.property('namespace', 'coll');
-      expect(result).to.have.property('ref').to.have.property('oid').eql('579e18580bddc20700502419');
+      expect(result).to.have.property('ref').to.have.property('oid').eql(id);
 
       expect(result).to.have.property('ref2').to.be.an.instanceof(bson.DBRef);
       expect(result).to.have.property('ref2').to.have.property('db', 'db');
+      expect(result).to.have.property('ref2').to.have.property('oid').eql(id);
 
       expect(result).to.have.property('ref3').to.be.an.instanceof(bson.DBRef);
       expect(result).to.have.property('ref3').to.have.property('db', '');
+      expect(result).to.have.property('ref3').to.have.property('oid').eql(id);
     });
 
     it('should convert Symbol to BSON', function () {
@@ -135,12 +138,13 @@ describe('BSON', function () {
 
     it('should convert DBRef to string', function () {
       const test = {
-        ref: new bson.DBRef('coll', new bson.ObjectId('57b80f922128ccef64333288'), ''),
+        ref: new bson.DBRef('coll', new bson.ObjectId('57b80f922128ccef64333288')),
         ref2: new bson.DBRef('coll', new bson.ObjectId('57b80f922128ccef64333288'), 'db'),
+        ref3: new bson.DBRef('coll', new bson.ObjectId('57b80f922128ccef64333288'), ''),
       };
       const result = libBson.toString(test);
       // eslint-disable-next-line max-len
-      const expected = '{\n    ref: DBRef(\'coll\', \'57b80f922128ccef64333288\', \'\'),\n    ref2: DBRef(\'coll\', \'57b80f922128ccef64333288\', \'db\')\n}';
+      const expected = '{\n    ref: DBRef(\'coll\', \'57b80f922128ccef64333288\'),\n    ref2: DBRef(\'coll\', \'57b80f922128ccef64333288\', \'db\'),\n    ref3: DBRef(\'coll\', \'57b80f922128ccef64333288\')\n}';
       expect(result).to.eql(expected);
     });
 
