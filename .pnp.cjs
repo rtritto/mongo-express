@@ -67,6 +67,7 @@ const RAW_RUNTIME_STATE =
           ["method-override", "npm:3.0.0"],\
           ["mocha", "npm:10.0.0"],\
           ["mongodb", "npm:4.6.0"],\
+          ["mongodb-memory-server", "npm:8.6.0"],\
           ["mongodb-query-parser", "npm:2.4.6"],\
           ["morgan", "npm:1.10.0"],\
           ["nodemon", "npm:2.0.16"],\
@@ -2564,6 +2565,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/tmp", [\
+      ["npm:0.2.3", {\
+        "packageLocation": "./.yarn/cache/@types-tmp-npm-0.2.3-ca9c2eba00-ec94f7a39f.zip/node_modules/@types/tmp/",\
+        "packageDependencies": [\
+          ["@types/tmp", "npm:0.2.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/treeify", [\
       ["npm:1.0.0", {\
         "packageLocation": "./.yarn/cache/@types-treeify-npm-1.0.0-b5e04e9cd3-9a51bd33d1.zip/node_modules/@types/treeify/",\
@@ -3400,6 +3410,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["async-mutex", [\
+      ["npm:0.3.2", {\
+        "packageLocation": "./.yarn/cache/async-mutex-npm-0.3.2-600f6c46a1-4cb1f055ce.zip/node_modules/async-mutex/",\
+        "packageDependencies": [\
+          ["async-mutex", "npm:0.3.2"],\
+          ["tslib", "npm:2.4.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["asynckit", [\
       ["npm:0.4.0", {\
         "packageLocation": "./.yarn/cache/asynckit-npm-0.4.0-c718858525-e4d1381289.zip/node_modules/asynckit/",\
@@ -3576,6 +3596,18 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["bl", [\
+      ["npm:4.1.0", {\
+        "packageLocation": "./.yarn/cache/bl-npm-4.1.0-7f94cdcf3f-f6a0c17835.zip/node_modules/bl/",\
+        "packageDependencies": [\
+          ["bl", "npm:4.1.0"],\
+          ["buffer", "npm:5.7.1"],\
+          ["inherits", "npm:2.0.4"],\
+          ["readable-stream", "npm:3.6.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["body-parser", [\
       ["npm:1.20.0", {\
         "packageLocation": "./.yarn/cache/body-parser-npm-1.20.0-1820eff49a-38cafb5585.zip/node_modules/body-parser/",\
@@ -3716,6 +3748,15 @@ const RAW_RUNTIME_STATE =
           ["buffer", "npm:5.7.1"],\
           ["base64-js", "npm:1.5.1"],\
           ["ieee754", "npm:1.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["buffer-crc32", [\
+      ["npm:0.2.13", {\
+        "packageLocation": "./.yarn/cache/buffer-crc32-npm-0.2.13-c4b6fceac1-73cebf807d.zip/node_modules/buffer-crc32/",\
+        "packageDependencies": [\
+          ["buffer-crc32", "npm:0.2.13"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5678,6 +5719,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["fd-slicer", [\
+      ["npm:1.1.0", {\
+        "packageLocation": "./.yarn/cache/fd-slicer-npm-1.1.0-3cade0050a-5a21150eeb.zip/node_modules/fd-slicer/",\
+        "packageDependencies": [\
+          ["fd-slicer", "npm:1.1.0"],\
+          ["pend", "npm:1.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["file-entry-cache", [\
       ["npm:6.0.1", {\
         "packageLocation": "./.yarn/cache/file-entry-cache-npm-6.0.1-31965cf0af-cac7f77759.zip/node_modules/file-entry-cache/",\
@@ -5852,6 +5903,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["fs-constants", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "./.yarn/cache/fs-constants-npm-1.0.0-59576b2177-fc080f48ee.zip/node_modules/fs-constants/",\
+        "packageDependencies": [\
+          ["fs-constants", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["fs-minipass", [\
       ["npm:2.1.0", {\
         "packageLocation": "./.yarn/cache/fs-minipass-npm-2.1.0-501ef87306-56d19f9a03.zip/node_modules/fs-minipass/",\
@@ -5973,6 +6033,15 @@ const RAW_RUNTIME_STATE =
           ["function-bind", "npm:1.1.1"],\
           ["has", "npm:1.0.3"],\
           ["has-symbols", "npm:1.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["get-port", [\
+      ["npm:5.1.1", {\
+        "packageLocation": "./.yarn/cache/get-port-npm-5.1.1-2f6074007a-93afec6695.zip/node_modules/get-port/",\
+        "packageDependencies": [\
+          ["get-port", "npm:5.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7434,6 +7503,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["md5-file", [\
+      ["npm:5.0.0", {\
+        "packageLocation": "./.yarn/cache/md5-file-npm-5.0.0-e5f59abc62-6b651458c4.zip/node_modules/md5-file/",\
+        "packageDependencies": [\
+          ["md5-file", "npm:5.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["media-typer", [\
       ["npm:0.3.0", {\
         "packageLocation": "./.yarn/cache/media-typer-npm-0.3.0-8674f8f0f5-21806e1526.zip/node_modules/media-typer/",\
@@ -7797,6 +7875,7 @@ const RAW_RUNTIME_STATE =
           ["method-override", "npm:3.0.0"],\
           ["mocha", "npm:10.0.0"],\
           ["mongodb", "npm:4.6.0"],\
+          ["mongodb-memory-server", "npm:8.6.0"],\
           ["mongodb-query-parser", "npm:2.4.6"],\
           ["morgan", "npm:1.10.0"],\
           ["nodemon", "npm:2.0.16"],\
@@ -7858,6 +7937,42 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/mongodb-language-model-npm-1.7.1-904cb53972-849ce96be3.zip/node_modules/mongodb-language-model/",\
         "packageDependencies": [\
           ["mongodb-language-model", "npm:1.7.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mongodb-memory-server", [\
+      ["npm:8.6.0", {\
+        "packageLocation": "./.yarn/unplugged/mongodb-memory-server-npm-8.6.0-a4cdc885c2/node_modules/mongodb-memory-server/",\
+        "packageDependencies": [\
+          ["mongodb-memory-server", "npm:8.6.0"],\
+          ["mongodb-memory-server-core", "npm:8.6.0"],\
+          ["tslib", "npm:2.4.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mongodb-memory-server-core", [\
+      ["npm:8.6.0", {\
+        "packageLocation": "./.yarn/cache/mongodb-memory-server-core-npm-8.6.0-77a4687717-81857efbef.zip/node_modules/mongodb-memory-server-core/",\
+        "packageDependencies": [\
+          ["mongodb-memory-server-core", "npm:8.6.0"],\
+          ["@types/tmp", "npm:0.2.3"],\
+          ["async-mutex", "npm:0.3.2"],\
+          ["camelcase", "npm:6.3.0"],\
+          ["debug", "virtual:e9768252e43aa6de65fb854961d56a022a412f93016571f7cfd339a91f5a5fc7545f1bcf4252cbdf5b29e03fc6994a47e8fc72f12f0404c4b962ba5757f205c9#npm:4.3.4"],\
+          ["find-cache-dir", "npm:3.3.2"],\
+          ["get-port", "npm:5.1.1"],\
+          ["https-proxy-agent", "npm:5.0.1"],\
+          ["md5-file", "npm:5.0.0"],\
+          ["mongodb", "npm:4.6.0"],\
+          ["new-find-package-json", "npm:1.2.0"],\
+          ["semver", "npm:7.3.7"],\
+          ["tar-stream", "npm:2.2.0"],\
+          ["tmp", "npm:0.2.1"],\
+          ["tslib", "npm:2.4.0"],\
+          ["uuid", "npm:8.3.2"],\
+          ["yauzl", "npm:2.10.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7956,6 +8071,17 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/neo-async-npm-2.6.2-75d6902586-968ceb7350.zip/node_modules/neo-async/",\
         "packageDependencies": [\
           ["neo-async", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["new-find-package-json", [\
+      ["npm:1.2.0", {\
+        "packageLocation": "./.yarn/cache/new-find-package-json-npm-1.2.0-f4ba698870-38f1bbb8ef.zip/node_modules/new-find-package-json/",\
+        "packageDependencies": [\
+          ["new-find-package-json", "npm:1.2.0"],\
+          ["debug", "virtual:e9768252e43aa6de65fb854961d56a022a412f93016571f7cfd339a91f5a5fc7545f1bcf4252cbdf5b29e03fc6994a47e8fc72f12f0404c4b962ba5757f205c9#npm:4.3.4"],\
+          ["tslib", "npm:2.4.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8446,6 +8572,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["pause-stream", "npm:0.0.11"],\
           ["through", "npm:2.3.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["pend", [\
+      ["npm:1.2.0", {\
+        "packageLocation": "./.yarn/cache/pend-npm-1.2.0-7a13d93266-623fcbe4b1.zip/node_modules/pend/",\
+        "packageDependencies": [\
+          ["pend", "npm:1.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9770,6 +9905,20 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["tar-stream", [\
+      ["npm:2.2.0", {\
+        "packageLocation": "./.yarn/cache/tar-stream-npm-2.2.0-884c79b510-c0c8df70db.zip/node_modules/tar-stream/",\
+        "packageDependencies": [\
+          ["tar-stream", "npm:2.2.0"],\
+          ["bl", "npm:4.1.0"],\
+          ["end-of-stream", "npm:1.4.4"],\
+          ["fs-constants", "npm:1.0.0"],\
+          ["inherits", "npm:2.0.4"],\
+          ["readable-stream", "npm:3.6.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["terser", [\
       ["npm:5.13.1", {\
         "packageLocation": "./.yarn/cache/terser-npm-5.13.1-c7df10bd07-81aee1ff43.zip/node_modules/terser/",\
@@ -9856,6 +10005,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/tinylogic-npm-2.0.0-700fcc2fe0-8c97825b29.zip/node_modules/tinylogic/",\
         "packageDependencies": [\
           ["tinylogic", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tmp", [\
+      ["npm:0.2.1", {\
+        "packageLocation": "./.yarn/cache/tmp-npm-0.2.1-a9c8d9c0ca-6d7e4d8985.zip/node_modules/tmp/",\
+        "packageDependencies": [\
+          ["tmp", "npm:0.2.1"],\
+          ["rimraf", "npm:3.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9968,6 +10127,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/tslib-npm-1.14.1-102499115e-441af59dc4.zip/node_modules/tslib/",\
         "packageDependencies": [\
           ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.4.0", {\
+        "packageLocation": "./.yarn/cache/tslib-npm-2.4.0-9cb6dc5030-022a70708a.zip/node_modules/tslib/",\
+        "packageDependencies": [\
+          ["tslib", "npm:2.4.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10261,6 +10427,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/utils-merge-npm-1.0.1-363bbdfbca-b72b8d7a0f.zip/node_modules/utils-merge/",\
         "packageDependencies": [\
           ["utils-merge", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["uuid", [\
+      ["npm:8.3.2", {\
+        "packageLocation": "./.yarn/cache/uuid-npm-8.3.2-eca0baba53-236a12282c.zip/node_modules/uuid/",\
+        "packageDependencies": [\
+          ["uuid", "npm:8.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10707,6 +10882,17 @@ const RAW_RUNTIME_STATE =
           ["decamelize", "npm:4.0.0"],\
           ["flat", "npm:5.0.2"],\
           ["is-plain-obj", "npm:2.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["yauzl", [\
+      ["npm:2.10.0", {\
+        "packageLocation": "./.yarn/cache/yauzl-npm-2.10.0-72e70ea021-760a176211.zip/node_modules/yauzl/",\
+        "packageDependencies": [\
+          ["yauzl", "npm:2.10.0"],\
+          ["buffer-crc32", "npm:0.2.13"],\
+          ["fd-slicer", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
