@@ -1,0 +1,8 @@
+# eslint-disable-next-line no-undef
+parserOptions:
+  sourceType: 'module'
+env:
+  node: false
+  browser: true
+globals:
+  ME_SETTINGS: true
