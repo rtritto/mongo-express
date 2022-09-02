@@ -1,6 +1,5 @@
-# eslint-disable-next-line no-undef
 parserOptions:
-  sourceType: 'module'
+  sourceType: module
 env:
   node: false
   browser: true
